@@ -1,0 +1,13 @@
+DBMS
+1. Introduction
+    a. Types of databases ✅ SQL, NoSQL, Vector Database
+    b. Schema
+    c. Tables
+    d. Views
+    e. Procedures
+2. DDL, 
+   DML, 
+   DCL and 
+   TCL
+3. Keys in DBMS
+4. Joins to interact between tables
