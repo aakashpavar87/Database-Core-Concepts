@@ -1,0 +1,74 @@
+Unnamed Procedure Anonymous Procedure
+
+Declare part
+    ..
+    ..
+    ..
+syntax : variable_name datatype(size)
+
+Procedure procedure_name(parameter_name IN datatype,...,return_value_variable OUT datatype) IS or AS
+
+Begin
+
+<body of procedure>
+
+End procedure_name;
+
+***************************************************************************
+
+Example: 
+
+
+Declare
+
+num1 number(4);
+num2 number(4);
+sum number(4);
+
+Procedure summation(Num1 IN number, Num2 IN number, Sum OUT number) IS
+
+Begin
+
+sum:=num1+num2;
+
+End summation;
+
+**************************************************************************
+
+Usage of Procedure :
+
+Begin 
+
+num1:=12;
+num2:=23;
+summation(num1, num2, sum);
+Dbms_output.put_line(sum);
+
+End;
+
+**************************************************************************
+
+Named Procedure or Stored Procedures -------------------------------------
+Declare
+
+num1 number(4);
+num2 number(4);
+sum number(4);
+
+Create or replace procedure summation(Num1 IN number, Num2 IN number, Sum OUT number) AS
+
+Begin
+
+sum:=num1+num2;
+
+End summation;
+
+Begin
+
+num1:=12;
+num2:=23;
+summation(num1, num2, sum);
+Dbms_output.put_line(sum);
+
+End;
+

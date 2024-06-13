@@ -1,13 +1,29 @@
 DBMS
 1. Introduction
-    a. Types of databases ✅ SQL, NoSQL, Vector Database
-    b. Schema
-    c. Tables
-    d. Views
-    e. Procedures
-2. DDL, 
-   DML, 
-   DCL and 
-   TCL
-3. Keys in DBMS
-4. Joins to interact between tables
+    a. Types of databases ✅ 
+        SQL, 
+        NoSQL, 
+        Vector Database,
+        Key Value Pair Database,
+        Graph Directed Databases
+
+        Database Model : 
+            Relational ✅
+            Entity Relation ✅
+            Hierarchical Model ✅
+            Networking Model ✅
+
+    b. Schema ✅
+    c. Tables ✅
+    d. Views 
+        Simple View ✅
+        Complex View ✅
+        Materialised View ✅
+    e. Procedures ✅
+2. DDL, (create, alter, drop, comment, rename, truncate) ✅
+   DML, (insert, update, delete, lock) ✅
+   DCL and (grant, revoke) ✅
+   TCL (begin, commit, rollback) ✅
+   DQL (select) ✅
+3. Keys in DBMS ✅
+4. Joins to interact between tables ✅
